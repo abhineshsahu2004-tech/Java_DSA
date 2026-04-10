@@ -16,8 +16,7 @@ public class palindrome {
     }
     static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println(ispalindrome(121));;
-        System.out.println(ispalindrome(1251));;
-
+        System.out.println(ispalindrome(121));
+        System.out.println(ispalindrome(1251));
     }
 }
