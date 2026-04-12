@@ -2,7 +2,7 @@ package Basics;
 
 import java.util.Scanner;
 
-public class Optimized_Power {
+public class Power {
     static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter a no. :");

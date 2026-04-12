@@ -10,16 +10,12 @@ public class Print_prime_factors {
         ArrayList<Integer> L = new ArrayList<>();
         int count = 0;
         for (int i = 2; i * i <= n; i++) {
-            if (n % i == 0) {
+            if(n%i==0){
                 L.add(i);
-
-                while (n % i == 0) {
-                    n /= i;
+                while(n%i==0){
+                    n/=i;
                 }
             }
-        }
-        if (n > 1) {
-            L.add(n);
         }
         System.out.println(L);
     }
