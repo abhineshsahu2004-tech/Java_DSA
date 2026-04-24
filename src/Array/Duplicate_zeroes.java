@@ -1,7 +1,6 @@
 package Array;
 
 import java.util.*;
-
 import static Array.Print_array.print;
 
 public class Duplicate_zeroes {

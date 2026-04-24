@@ -1,12 +1,10 @@
 package Array;
-
 import java.util.*;
 
 public class Remove_duplicates {
  static int remove_duplicate(int[]arr){
-    int n=arr.length;
-    int i=0;
-    int count=1;
+    int n=arr.length,i=0,count=1;
+
    for (int j=1;j<n;j++){
        if (arr[i]!=arr[j]){
            arr[i+1]=arr[j];

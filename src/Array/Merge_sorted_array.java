@@ -1,5 +1,4 @@
 package Array;
-
 import static Array.Print_array.print;
 
 public class Merge_sorted_array {
@@ -15,8 +14,7 @@ public class Merge_sorted_array {
             if (i >= 0 && nums1[i]>nums2[j]) {
                 nums1[k]=nums1[i];
                 i--;
-                }
-            else {
+                } else {
                 nums1[k]=nums2[j];
                 j--;
             }
