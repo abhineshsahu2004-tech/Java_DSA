@@ -1,6 +1,6 @@
 package Array;
 
-public class Sec_largest {
+public class largest_sec {
     static void main(String[] args) {
         int[] arr = {1, 9, 0,1,34};
         int n= arr.length;
