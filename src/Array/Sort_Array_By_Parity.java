@@ -1,6 +1,6 @@
 package Array;
 
-import static Array.Print_array.print;
+import static Array.Print_array_.print;
 
 public class Sort_Array_By_Parity {
     static void main(String[] args) {

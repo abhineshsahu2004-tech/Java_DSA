@@ -1,8 +1,8 @@
 package Array;
 
-import static Array.Print_array.print;
+import static Array.Print_array_.print;
 
-public class Replace_Elements_with_Greatest_Element_on_Right_Side {
+public class Replace_Elements_with_Greatest_Element_on_Right_Side_ {
     static void main(String[] args) {
         int[] arr = {16, 18, 5, 4, 6, 1};
         int temp=0;

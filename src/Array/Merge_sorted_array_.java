@@ -1,7 +1,7 @@
 package Array;
-import static Array.Print_array.print;
+import static Array.Print_array_.print;
 
-public class Merge_sorted_array {
+public class Merge_sorted_array_ {
     static void main(String[] args) {
         int[] nums1 ={1,2,3,0,0,0};
         int[] nums2={2,5,6};

@@ -2,7 +2,7 @@ package Array;
 
 import java.util.*;
 
-public class count_even_digits {
+public class count_even_digits_ {
     static int CountEvenDigit(int [] arr){
         int ans=0;
         for (int num : arr){

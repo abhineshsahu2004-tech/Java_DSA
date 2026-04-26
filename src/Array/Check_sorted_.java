@@ -1,7 +1,7 @@
 package Array;
 import java.util.Scanner;
 
-public class Check_sorted {
+public class Check_sorted_ {
     static boolean sort(int [] arr) {
         int n=arr.length;
         for (int i = 0; i < n - 1; i++) {

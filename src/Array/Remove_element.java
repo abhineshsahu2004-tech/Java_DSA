@@ -2,8 +2,6 @@ package Array;
 
 import java.util.Scanner;
 
-import static Array.Print_array.print;
-
 public class Remove_element {
     static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

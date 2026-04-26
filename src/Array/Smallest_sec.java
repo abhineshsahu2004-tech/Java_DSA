@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class Sec_smallest {
+public class Smallest_sec {
     public static void main() {
         Scanner sc=new Scanner(System.in);
         int [] arr={1,0,9,5,6};

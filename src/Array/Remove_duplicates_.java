@@ -1,7 +1,6 @@
 package Array;
-import java.util.*;
 
-public class Remove_duplicates {
+public class Remove_duplicates_ {
  static int remove_duplicate(int[]arr){
     int n=arr.length,i=0,count=1;
 

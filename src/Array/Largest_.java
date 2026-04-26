@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class Largest {
+public class Largest_ {
     static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int [] arr={1,0,9,5,6};

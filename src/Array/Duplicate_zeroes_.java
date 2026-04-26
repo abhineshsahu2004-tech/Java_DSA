@@ -1,9 +1,9 @@
 package Array;
 
 import java.util.*;
-import static Array.Print_array.print;
+import static Array.Print_array_.print;
 
-public class Duplicate_zeroes {
+public class Duplicate_zeroes_ {
     static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int[] arr={1,0,2,3,0,4,5,0};
@@ -19,12 +19,10 @@ public class Duplicate_zeroes {
                 result[j]=0;
                 j++;
                 result[j]=0;
-            }
-            else {
+            } else {
                 result[j]=arr[i];
             }
-            i++;
-            j++;
+            i++; j++;
         }
          print(result);
 
@@ -39,8 +37,7 @@ public class Duplicate_zeroes {
                     arr[ldx]=0;
                     ldx-=1;
                     break;
-                }
-                possiblezerodups++;
+                } possiblezerodups++;
             }
         }
         int newldx=ldx-possiblezerodups;

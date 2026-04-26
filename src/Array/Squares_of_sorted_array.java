@@ -1,6 +1,6 @@
 package Array;
 
-import static Array.Print_array.print;
+import static Array.Print_array_.print;
 
 public class Squares_of_sorted_array {
     static int[] Square_Sorted_Array(int [] arr){
