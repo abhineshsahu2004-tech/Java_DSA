@@ -24,7 +24,7 @@ public class Duplicate_zeroes_ {
             }
             i++; j++;
         }
-         print(result);
+         //print(result);
 
         //OPTIMISED APPROACH
 
