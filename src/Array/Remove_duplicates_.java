@@ -3,7 +3,6 @@ package Array;
 public class Remove_duplicates_ {
  static int remove_duplicate(int[]arr){
     int n=arr.length,i=0,count=1;
-
    for (int j=1;j<n;j++){
        if (arr[i]!=arr[j]){
            arr[i+1]=arr[j];
