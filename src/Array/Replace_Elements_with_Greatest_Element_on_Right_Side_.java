@@ -1,6 +1,5 @@
 package Array;
 
-import static Array.Print_array_.print;
 
 public class Replace_Elements_with_Greatest_Element_on_Right_Side_ {
     static void main(String[] args) {
@@ -12,6 +11,6 @@ public class Replace_Elements_with_Greatest_Element_on_Right_Side_ {
             arr[i]=max;
             max=Math.max(max,temp);
         }
-        print(arr);
+        print.print(arr);
     }
 }

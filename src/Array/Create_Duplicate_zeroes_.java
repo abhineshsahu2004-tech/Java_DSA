@@ -1,9 +1,8 @@
 package Array;
 
 import java.util.*;
-import static Array.Print_array_.print;
 
-public class Duplicate_zeroes_ {
+public class Create_Duplicate_zeroes_ {
     static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int[] arr={1,0,2,3,0,4,5,0};
@@ -24,7 +23,7 @@ public class Duplicate_zeroes_ {
             }
             i++; j++;
         }
-         print(result);
+        print.print(result);
 
         //OPTIMISED APPROACH
 
@@ -51,6 +50,6 @@ public class Duplicate_zeroes_ {
             }
         }
         System.out.println();
-        print(arr);
+        print.print(arr);
     }
 }

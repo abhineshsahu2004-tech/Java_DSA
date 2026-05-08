@@ -13,7 +13,6 @@ public class Check_If_N_and_Its_Double_Exist {
         }
         return false;
     }
-
     static void main(String[] args) {
         int[] arr={11,2,5,7};
         System.out.println(checkIfExist(arr));

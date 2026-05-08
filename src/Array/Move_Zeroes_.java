@@ -1,7 +1,5 @@
 package Array;
 
-import static Array.Print_array_.print;
-
 public class Move_Zeroes_ {
     static void main(String[] args) {
         int[] arr = {0,7,0, 1, 2,2 , 6};
@@ -15,6 +13,6 @@ public class Move_Zeroes_ {
                 i++;
             }
         }
-        print(arr);
+        print.print(arr);
     }
 }

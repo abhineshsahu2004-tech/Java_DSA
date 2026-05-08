@@ -1,6 +1,8 @@
 package Array;
 
-public class Find_All_Numbers_Disappeared_in_an_Array {
+import static java.lang.IO.print;
+
+public class Find_All_Numbers_Disappeared_in_an_Array_ {
      static void main(String[] args) {
         int [] nums={2,6,7,2,2,3,1};
         int n=nums.length;
@@ -15,5 +17,6 @@ public class Find_All_Numbers_Disappeared_in_an_Array {
             if(nums[i]>0)
                 System.out.print((i+1)+" ");
         }
+         print.print(nums);
     }
 }

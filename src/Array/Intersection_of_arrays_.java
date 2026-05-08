@@ -1,8 +1,7 @@
 package Array;
 
 import java.util.ArrayList;
-
-public class Intersection_of_arrays {
+public class Intersection_of_arrays_ {
     static void main(String[] args) {
         int[] nums1={1,2,3,4,5};
         int[] nums2={2,3,5,8};

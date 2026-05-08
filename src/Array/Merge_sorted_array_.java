@@ -1,5 +1,4 @@
 package Array;
-import static Array.Print_array_.print;
 
 public class Merge_sorted_array_ {
     static void main(String[] args) {
@@ -20,6 +19,6 @@ public class Merge_sorted_array_ {
             }
             k--;
         }
-        print(nums1);
+        print. print(nums1);
     }
 }

@@ -1,7 +1,5 @@
 package Array;
 
-import static Array.Print_array_.print;
-
 public class Sort_Array_By_Parity {
     static void main(String[] args) {
         int [] arr={1,2,3,3,4,0,6,2};
@@ -16,6 +14,6 @@ public class Sort_Array_By_Parity {
                 i++;
             }
         }
-        print(arr);
+        print.print(arr);
     }
 }

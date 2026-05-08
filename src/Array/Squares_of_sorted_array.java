@@ -1,6 +1,5 @@
 package Array;
 
-import static Array.Print_array_.print;
 
 public class Squares_of_sorted_array {
     static int[] Square_Sorted_Array(int [] arr){
@@ -21,6 +20,6 @@ public class Squares_of_sorted_array {
     }
     static void main(String[] args) {
         int[] Array ={-4,-2,0,5,8};
-        print(Square_Sorted_Array(Array));
+        print.print(Square_Sorted_Array(Array));
     }
 }

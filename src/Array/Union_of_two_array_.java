@@ -2,7 +2,7 @@ package Array;
 
 import java.util.ArrayList;
 
-public class Union_of_two_array {
+public class Union_of_two_array_ {
     static void main(String[] args) {
         int[] nums1={1,2,3,4,5};
         int[] nums2={2,3,5,8};
@@ -31,7 +31,7 @@ public class Union_of_two_array {
             }
         }
         while(i<n1){
-            if (ans.isEmpty() || ans.getLast()!=nums1[i]) {
+            if (ans.isEmpty() || ans.getLast()!=nums1[i]){
                 ans.add(nums1[i]);
             }
             i++;
