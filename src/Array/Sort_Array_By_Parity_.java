@@ -1,6 +1,6 @@
 package Array;
 
-public class Sort_Array_By_Parity {
+public class Sort_Array_By_Parity_ {
     static void main(String[] args) {
         int [] arr={1,2,3,3,4,0,6,2};
         int n=arr.length;

@@ -1,6 +1,6 @@
 package Array;
 
- class Valid_Mountain_Array {
+ class Valid_Mountain_Array_ {
     static boolean validMountainArray(int[] arr) {
         int n=arr.length;
         int i=0;

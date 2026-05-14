@@ -2,7 +2,7 @@ package Array;
 
 import java.util.HashSet;
 
-public class Check_If_N_and_Its_Double_Exist {
+public class Check_If_N_and_Its_Double_Exist_ {
     static boolean checkIfExist(int[] arr) {
         HashSet<Integer> has=new HashSet<>();
         for(int val:arr){
