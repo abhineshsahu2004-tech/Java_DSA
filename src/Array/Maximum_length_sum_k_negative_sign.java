@@ -1,7 +1,7 @@
 package Array;
 import java.util.*;
 
-public class Maximum__negative_sign {
+public class Maximum_length_sum_k_negative_sign {
     static int Mslk(int [] arr,int k){
         HashMap<Integer,Integer> H=new HashMap<>();
         int n=arr.length;

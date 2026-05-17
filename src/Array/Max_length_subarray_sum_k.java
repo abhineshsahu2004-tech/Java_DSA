@@ -18,8 +18,7 @@ public class Max_length_subarray_sum_k {
                 length=Math.max(length,j-i+1);
             }
             j++;
-        }
-        return length;
+        }return length;
     }
     static void main(String[] args) {
         int [] Array={1,3,5,3,1,4,9,2,4};
