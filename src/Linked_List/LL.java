@@ -28,7 +28,7 @@ package Linked_List;
         newNode.next=head;
         head=newNode;
      }
-     // Add last
+     // Add-last
      public void addLast(String data){
         Node newNode=new Node(data);
         if(head==null){

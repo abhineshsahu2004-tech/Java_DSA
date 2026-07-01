@@ -12,7 +12,7 @@ public class Linked_list {
         list.addFirst("Wish");
         list.add("daze");
 
-        //print
+        //print list/size
         System.out.println(list);
         System.out.println(list.size());
 
